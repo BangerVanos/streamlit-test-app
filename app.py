@@ -1,9 +1,10 @@
 import streamlit as st
+from streamlit.logger import get_logger
 import logging
 import hashlib
 
 
-logger = logging.getLogger('st-app')
+logger = get_logger('st-app')
 logging.basicConfig(filename='logs.log', filemode='a', encoding='utf-8', level=logging.INFO)
 
 
