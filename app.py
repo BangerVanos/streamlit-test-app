@@ -4,7 +4,7 @@ import hashlib
 
 
 logger = logging.getLogger('st-app')
-logging.basicConfig(filename='logs.log', filemode='a', encoding='utf-8')
+logging.basicConfig(filename='logs.log', filemode='a', encoding='utf-8', level=logging.INFO)
 
 
 HASH = 'e5089e403ce9873d8e9af3abd5cbde11929d2938c6bdaff6d4255b499877904b'
