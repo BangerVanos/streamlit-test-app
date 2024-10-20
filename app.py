@@ -17,7 +17,7 @@ def guess_try(guess: str) -> bool:
 
 
 st.write("## Try to guess string from it's SHA-256 hash")
-st.info(f"SHA-256 of mystrious string is: {HASH}")
+st.info(f"SHA-256 of mysterious string is: {HASH}")
 with st.form('guess_form'):
     name = st.text_input('Your name', value='Anonimus', placeholder='Put your name here!',
                          key='name')
